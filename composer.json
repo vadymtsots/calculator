@@ -1,0 +1,19 @@
+{
+  "name": "vadymtsots/calculator",
+  "description": "Perform addition, subtraction, multiplication and division using PHP",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vadym Matsotskyi",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "php": "^8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Vadymtsots\\Calculator\\": "src/"
+    }
+  }
+}
